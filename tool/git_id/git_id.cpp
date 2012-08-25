@@ -54,8 +54,8 @@
 #define NUM_DATABASES 2
 
 char remotes[NUM_REMOTES][MAX_REMOTE] = {
-    "git@github.com:scriptdev2/scriptdev2.git",
-    "git://github.com/scriptdev2/scriptdev2.git"                       // used for fetch if present
+    "git@github.com:mangos-three/scriptdev2.git",
+    "git://github.com/mangos-three/scriptdev2.git"                       // used for fetch if present
 };
 
 char remote_branch[MAX_REMOTE] = "master";
